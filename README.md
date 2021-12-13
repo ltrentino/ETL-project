@@ -19,14 +19,14 @@ The other problem was with unknown values, we solved the problem creating an ind
 # Data Cleanup and Analysis
 We have performed the ETL process in three steps: 
 
-#Step1:  Data Extraction
+# Step1:  Data Extraction
 
 The data has been downloaded from public platform Kaggle with the following link - https://www.kaggle.com/, the files used for extraction were originally formatted as .csv.
 *	World Happiness Report 2019 | Kaggle
 *	World Happiness Report 2021 | Kaggle
 The .csv files are then read into a Pandas data frame in Jupyter notebook.
 
-#Step 2: Transformation
+# Step 2: Transformation
 
 We used Python as the tool to perform the transformation on the datasets using Pandas library, described in the following steps:
 *   The files were first read into the Pandas data frame, using read_csv.
@@ -50,9 +50,8 @@ We used Python as the tool to perform the transformation on the datasets using P
 
 ![ERD](images/erd.png)
 
-# Scheduling
+# Data Refresh Scheduling
 
-![image](images/Scheduling_Image1.png)
 
 ![image](images/Scheduling_Image2.png)
 
