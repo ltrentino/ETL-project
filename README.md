@@ -29,7 +29,7 @@ The .csv files are then read into a Pandas data frame in Jupyter notebook.
 #Step 2: Transformation
 
 We used Python as the tool to perform the transformation on the datasets using Pandas library, described in the following steps:
-*       The files were first read into the Pandas data frame, using read_csv.
+*   The files were first read into the Pandas data frame, using read_csv.
 *	The columns that were not relevant were then dropped from the two data frames by selecting the columns, namely 'Country name’, ‘Regional indicator’, ‘Ladder score’, ‘Standard error of ladder score', 'Logged GDP per capita','Social support', 'Healthy life expectancy', 'Freedom to make life choices', 'Generosity’, ‘Perceptions of corruption’.
 *	Both data frame was renamed to clean_2021 and clean_2019.
 *	NA values were dropped from both Data frames using dropna function and isnull.
@@ -52,8 +52,8 @@ We used Python as the tool to perform the transformation on the datasets using P
 
 # Scheduling
 
-![image](images/Scheduling_Image1.PNG)
+![image](images/Scheduling_Image1.png)
 
-![image](images/Scheduling_Image2.PNG)
+![image](images/Scheduling_Image2.png)
 
-![image](images/Scheduling_Image.PNG)
+![image](images/Scheduling_Image.png)
