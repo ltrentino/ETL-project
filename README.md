@@ -56,4 +56,6 @@ We used Python as the tool to perform the transformation on the datasets using P
 
 ![image](images/Scheduling_Image2.png)
 
-![image](images/Scheduling_Image.png)
+![image](images/Scheduling_Image3.png)
+
+![image](images/Scheduling_Image4.png)
