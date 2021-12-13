@@ -1,10 +1,11 @@
 ## ETL PROJECT REPORT
 ## World Happiness 2019-2021 Data
-![World Hppiness pic](Images/main image.png))
+
+![image](images/main image.png)
 
 # Objective
 The main purpose of this project is to provide a detailed analysis of the ETL(Extract-Transform-Load) process by reading the dataset of the World Happiness report obtained from Kaggle, which is a landmark survey of the state of global happiness, cleaning the dataset in the desired form and load into a database for storage.
-The data comes from a 2019 Kaggle dataset collected from the World Happiness Report in this project, the data ranges from the years 2015 to 2017. This specific range of data can be found in the master branch of this repository.
+The data comes Kaggle dataset collected from the years 2019 to 2021. This .csv files can be found in the Resources folder of this repository.
 
 # Problem Statement
 
@@ -12,7 +13,7 @@ We have been faced some challenging creating and reading the data in Postgres SQ
 To solve the issue, we had to use cascade to automatically drop objects, and then pin in the table. We copied the table code from Pd Admin and pasted in the pgAdmin, refreshed the data and finally connected to Visual Code.
 The other problem was with unknown values, we solved the problem creating an index that we had for every simple table.
 
-![Problem Statement image](Images/Problem Statement.png)
+![image](images/Problem Statement.png)
 
 
 # Data Cleanup and Analysis
@@ -51,8 +52,8 @@ We used Python as the tool to perform the transformation on the datasets using P
 
 # Scheduling
 
-![Scheduling image1](Images/Scheduling Image1.PNG)
+![image](images/Scheduling Image1.PNG)
 
-![Scheduling image2](Images/Scheduling Image2.PNG)
+![image](images/Scheduling Image2.PNG)
 
-![Scheduling image3](Images/Scheduling Image.PNG)
+![image](images/Scheduling Image.PNG)
