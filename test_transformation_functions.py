@@ -23,5 +23,3 @@ def test_convert_country_code():
     # ASSERT 
     assert expected_result == codes
 
-    # JON SUGGESTED TO TEST BY RETURN A DATAFRAME
-    # pd.testing.assert_frame_equal(left=output_df, right=expected_df,check_exact=True)
